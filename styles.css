@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #814141;
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    color: #ca9191;
+    padding: 100px 0;
+}
+
+.hero-section h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 1.5em;
+}
+
+.hero-section .btn {
+    margin-top: 20px;
+}
+
+/* Rooms Section */
+.rooms-section .card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.rooms-section .card-img-top {
+    border-radius: 8px 8px 0 0;
+    height: 200px;
+    object-fit: cover;
+}
+
+.rooms-section .card-title {
+    font-size: 1.2em;
+}
+
+.rooms-section .card-body {
+    padding: 20px;
+}
+
+/* About Section */
+.about-section {
+    background-color: #f9f9f9;
+    color: #514a4a;
+}
+
+/* Contact Section */
+.contact-section {
+    background-color: #fff;
+    color: #4c4848;
+}
+
+.contact-section .form-label {
+    font-weight: bold;
+}
+
+/* Footer Section */
+footer {
+    background-color: #5c4f4f;
+    color: white;
+    padding: 20px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 767px) {
+    .hero-section h1 {
+        font-size: 2em;
+    }
+
+    .hero-section p {
+        font-size: 1.2em;
+    }
+}
